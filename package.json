@@ -5,11 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "build-wc": "vue-cli-service build --target wc --name lm-tool src/modules/broadbandAddress/BroadbandAddress.vue"
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.6"
+    "lib-flexible": "^0.3.2",
+    "postcss-px2rem": "^0.3.0",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
