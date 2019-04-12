@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "cube-ui": "^1.12.15",
     "lib-flexible": "^0.3.2",
     "postcss-px2rem": "^0.3.0",
     "vue": "^2.6.6",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue2-animate": "^2.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
